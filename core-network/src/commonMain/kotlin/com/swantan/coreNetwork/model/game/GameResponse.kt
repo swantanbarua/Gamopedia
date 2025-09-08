@@ -1,5 +1,7 @@
 package com.swantan.coreNetwork.model.game
+import kotlinx.serialization.Serializable
 
+@Serializable
 data class GameResponse(
     val count: Int,
     val description: String,
